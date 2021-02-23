@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>{{name}}</h1>
+    {{names[0]}}
+    {% for i in names %}
+        {{i}}
+    {% endfor %}
+{{people["name"]}}
+{{people.get("age")}}
+{{dog.name}}
+{{dog.age}}
+    <img src="/static/1.jpg" alt="xxxx">
+    <img src="http://localhost:5500/img/1.jpg" alt="外部静态服务器资源图片">
+</body>
+</html>
